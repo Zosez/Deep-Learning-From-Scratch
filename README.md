@@ -1,45 +1,36 @@
-# Deep Learning From Scratch 🧠
+# Deep Learning Journey 🧠
 
-> A personal learning repository where I implement Deep Learning algorithms from scratch using **NumPy**, without relying on frameworks like TensorFlow or PyTorch.
+> A repository documenting my journey of learning Deep Learning—from implementing the fundamentals from scratch to building real-world models using TensorFlow and PyTorch.
 
-The goal of this repository is to understand the mathematics and implementation details behind deep learning by building everything from the ground up.
+## 📖 About
 
----
+This repository serves as my personal learning log and collection of Deep Learning implementations.
 
-## 📌 About
+I believe the best way to truly understand Deep Learning is to first learn how the algorithms work internally. That's why I began by implementing a neural network completely from scratch using only **NumPy**.
 
-Instead of treating deep learning libraries as black boxes, this repository focuses on implementing every component manually to gain a deeper understanding of:
+After building a strong foundation, this repository will gradually transition into using industry-standard frameworks like **TensorFlow** and **PyTorch** to solve more complex real-world problems.
 
-- Neural Networks
-- Forward Propagation
-- Backpropagation
-- Gradient Descent
-- Loss Functions
-- Activation Functions
-- Optimization Algorithms
-- Regularization Techniques
-- Advanced Deep Learning Architectures
-
-Every implementation is accompanied by explanations, experiments, and visualizations wherever possible.
+This repository will grow as I continue exploring new concepts, architectures, and applications of Deep Learning.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Learning Philosophy
 
-- Learn Deep Learning from first principles.
-- Understand the mathematics behind neural networks.
-- Implement algorithms using only **NumPy**.
-- Build intuition before using high-level frameworks.
-- Document the learning journey with clean and reproducible code.
+> **Understand first. Build second. Scale third.**
+
+My learning path follows three stages:
+
+- **Stage 1:** Implement core concepts from scratch using NumPy.
+- **Stage 2:** Learn TensorFlow and PyTorch to build production-ready models.
+- **Stage 3:** Explore modern Deep Learning architectures and real-world projects.
 
 ---
 
-# 📚 Learning Roadmap
+# 🚀 Repository Roadmap
 
-## ✅ Fundamentals
+## Phase 1 — Deep Learning Fundamentals (From Scratch)
 
-- [x] Perceptron
-- [x] Binary Classification Neural Network (From Scratch)
+- [x] Neural Network from Scratch
 - [x] Forward Propagation
 - [x] Backpropagation
 - [x] Binary Cross Entropy Loss
@@ -49,116 +40,113 @@ Every implementation is accompanied by explanations, experiments, and visualizat
 
 ---
 
-## 🚧 Coming Next
+## Phase 2 — Deep Learning with TensorFlow
 
-- [ ] Multi-Layer Neural Networks
-- [ ] Softmax & Multiclass Classification
-- [ ] Cross Entropy Loss
-- [ ] Mini Batch Gradient Descent
-- [ ] Stochastic Gradient Descent
-- [ ] Momentum
-- [ ] RMSProp
-- [ ] Adam Optimizer
-- [ ] Weight Initialization Techniques
-- [ ] Regularization (L1 & L2)
-- [ ] Dropout
-- [ ] Batch Normalization
-- [ ] Learning Rate Scheduling
+- [ ] TensorFlow Basics
+- [ ] Sequential API
+- [ ] Functional API
+- [ ] Model Training
+- [ ] Callbacks
+- [ ] Saving & Loading Models
 
 ---
 
-## 🖼 Computer Vision
+## Phase 3 — Deep Learning with PyTorch
+
+- [ ] Tensor Basics
+- [ ] Autograd
+- [ ] Neural Network Module
+- [ ] Optimizers
+- [ ] DataLoaders
+- [ ] Model Training Pipeline
+
+---
+
+## Phase 4 — Computer Vision
 
 - [ ] Convolutional Neural Networks (CNN)
-- [ ] Pooling Layers
-- [ ] Image Classification
 - [ ] Transfer Learning
+- [ ] Image Classification
+- [ ] Object Detection
 
 ---
 
-## 🔁 Sequence Models
+## Phase 5 — Sequence Models
 
-- [ ] Recurrent Neural Networks (RNN)
+- [ ] RNN
 - [ ] LSTM
 - [ ] GRU
 
 ---
 
-## 🤖 Transformers
+## Phase 6 — Transformers & Generative AI
 
 - [ ] Attention Mechanism
-- [ ] Self Attention
-- [ ] Multi-Head Attention
-- [ ] Positional Encoding
 - [ ] Transformer Architecture
+- [ ] BERT
+- [ ] GPT Concepts
+- [ ] Fine-tuning LLMs
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - Python
 - NumPy
 - Matplotlib
 - Pandas
-- Scikit-learn (Datasets & Evaluation only)
+- Scikit-learn
+- TensorFlow *(coming soon)*
+- PyTorch *(coming soon)*
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
-DeepLearning-From-Scratch/
+Deep-Learning-Journey/
 │
-├── Neural Networks/
-│   ├── Binary Classification NN.ipynb
-│   └── NeuralNetwork.py
+├── 01-Deep-Learning-From-Scratch/
+│   ├── Neural Network from Scratch.ipynb
+│   └── ...
+│
+├── 02-TensorFlow/
+│
+├── 03-PyTorch/
+│
+├── 04-Computer-Vision/
+│
+├── 05-NLP/
 │
 ├── Datasets/
 │
-├── Images/
-│
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 📖 Current Progress
+# 🌱 Current Progress
 
-### Neural Network From Scratch
+### ✅ Completed
 
-Implemented a fully connected neural network using only NumPy featuring:
+- Built a fully connected Neural Network from scratch using only NumPy.
+- Implemented forward propagation and backpropagation manually.
+- Trained the network using Gradient Descent.
+- Evaluated the model on a binary classification dataset.
 
-- Forward Propagation
-- Backpropagation
-- ReLU Hidden Layer
-- Sigmoid Output Layer
-- Binary Cross Entropy Loss
-- Gradient Descent Optimization
-- Training Loss Visualization
-- Prediction & Evaluation
+### 🔄 Currently Learning
 
-No deep learning frameworks were used during implementation.
+- TensorFlow
+- PyTorch
+- Modern Deep Learning workflows
 
 ---
 
-## 🚀 Why This Repository?
+# 🎯 Goal
 
-Many tutorials focus on *using* deep learning frameworks. This repository focuses on **understanding** how they work internally by implementing the algorithms from scratch.
+The goal of this repository is not only to learn how to **use** Deep Learning libraries, but also to understand **why they work**.
 
-The objective is to bridge the gap between mathematical concepts and practical implementation.
-
----
-
-## 📈 Progress
-
-This repository will continue to grow as I explore more advanced topics in Deep Learning, gradually moving from simple neural networks to modern architectures like CNNs, RNNs, LSTMs, and Transformers.
-
----
-
-## ⭐ If you find this repository helpful
-
-Feel free to star the repository and follow my learning journey as I continue exploring Deep Learning from scratch.
+By combining mathematical intuition with practical implementation, I hope to build a strong foundation in Deep Learning before moving toward advanced architectures and real-world AI applications.
 
 ---
 
@@ -166,4 +154,4 @@ Feel free to star the repository and follow my learning journey as I continue ex
 
 **Kashyap Adhikari**
 
-GitHub: *Add your GitHub profile link here*
+*Learning in public, one model at a time.*
