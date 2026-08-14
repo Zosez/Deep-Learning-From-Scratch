@@ -40,29 +40,18 @@ My learning path follows three stages:
 
 ---
 
-## Phase 2 — Deep Learning with TensorFlow
+## Phase 2 — Deep Learning with PyTorch
 
-- [ ] TensorFlow Basics
-- [ ] Sequential API
-- [ ] Functional API
-- [ ] Model Training
-- [ ] Callbacks
-- [ ] Saving & Loading Models
-
----
-
-## Phase 3 — Deep Learning with PyTorch
-
-- [ ] Tensor Basics
-- [ ] Autograd
-- [ ] Neural Network Module
-- [ ] Optimizers
-- [ ] DataLoaders
-- [ ] Model Training Pipeline
+- [x] Tensor Basics
+- [x] Autograd
+- [x] Neural Network Module
+- [x] Optimizers
+- [x] DataLoaders
+- [x] Model Training Pipeline
 
 ---
 
-## Phase 4 — Computer Vision
+## Phase 3 — Computer Vision
 
 - [ ] Convolutional Neural Networks (CNN)
 - [ ] Transfer Learning
@@ -71,7 +60,7 @@ My learning path follows three stages:
 
 ---
 
-## Phase 5 — Sequence Models
+## Phase 4 — Sequence Models
 
 - [ ] RNN
 - [ ] LSTM
@@ -79,7 +68,7 @@ My learning path follows three stages:
 
 ---
 
-## Phase 6 — Transformers & Generative AI
+## Phase 5 — Transformers & Generative AI
 
 - [ ] Attention Mechanism
 - [ ] Transformer Architecture
@@ -96,7 +85,6 @@ My learning path follows three stages:
 - Matplotlib
 - Pandas
 - Scikit-learn
-- TensorFlow *(coming soon)*
 - PyTorch *(coming soon)*
 
 ---
@@ -110,13 +98,11 @@ Deep-Learning-Journey/
 │   ├── Neural Network from Scratch.ipynb
 │   └── ...
 │
-├── 02-TensorFlow/
+├── 02-PyTorch/
 │
-├── 03-PyTorch/
+├── 03-Computer-Vision/
 │
-├── 04-Computer-Vision/
-│
-├── 05-NLP/
+├── 04-NLP/
 │
 ├── Datasets/
 │
@@ -136,7 +122,6 @@ Deep-Learning-Journey/
 
 ### 🔄 Currently Learning
 
-- TensorFlow
 - PyTorch
 - Modern Deep Learning workflows
 
