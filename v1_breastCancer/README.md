@@ -108,7 +108,7 @@ Example output:
 
 ```
 Loss: ...
-Accuracy: ~92%
+Accuracy: ~93%
 ```
 
 *(Results may vary because of random weight initialization.)*
